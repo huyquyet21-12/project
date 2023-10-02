@@ -10,6 +10,8 @@ router.get("/add",controller.add);
 
 router.get("/edit",controller.edit);
 
+router.get("/detail/:slug",controller.detail);
+
 
 
 module.exports = router;//exports no ra
